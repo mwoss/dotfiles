@@ -72,8 +72,8 @@ ZSH_THEME="lukerandall"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
  git
- zsh-autosuggestions
- zsh-syntax-highlighting
+ zsh-autosuggestion #https://github.com/zsh-users/zsh-autosuggestions/tree/master
+ zsh-syntax-highlighting #https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh
 )
 
 source $ZSH/oh-my-zsh.sh
